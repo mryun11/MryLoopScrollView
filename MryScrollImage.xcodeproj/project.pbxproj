@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		647955751B60C204002FD957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 647955741B60C204002FD957 /* main.m */; };
+		647955781B60C204002FD957 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 647955771B60C204002FD957 /* AppDelegate.m */; };
+		6479557B1B60C204002FD957 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6479557A1B60C204002FD957 /* ViewController.m */; };
+		6479557E1B60C204002FD957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6479557C1B60C204002FD957 /* Main.storyboard */; };
+		647955801B60C204002FD957 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6479557F1B60C204002FD957 /* Images.xcassets */; };
+		647955831B60C204002FD957 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647955811B60C204002FD957 /* LaunchScreen.xib */; };
+		6479558F1B60C205002FD957 /* MryScrollImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6479558E1B60C205002FD957 /* MryScrollImageTests.m */; };
+		647955A31B60F98C002FD957 /* MryLoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 647955A21B60F98C002FD957 /* MryLoopScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		647955891B60C205002FD957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 647955671B60C204002FD957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6479556E1B60C204002FD957;
+			remoteInfo = MryScrollImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6479556F1B60C204002FD957 /* MryScrollImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MryScrollImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		647955731B60C204002FD957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647955741B60C204002FD957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		647955761B60C204002FD957 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		647955771B60C204002FD957 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		647955791B60C204002FD957 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6479557A1B60C204002FD957 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6479557D1B60C204002FD957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6479557F1B60C204002FD957 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		647955821B60C204002FD957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		647955881B60C205002FD957 /* MryScrollImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MryScrollImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6479558D1B60C205002FD957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6479558E1B60C205002FD957 /* MryScrollImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MryScrollImageTests.m; sourceTree = "<group>"; };
+		647955A11B60F98C002FD957 /* MryLoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MryLoopScrollView.h; sourceTree = "<group>"; };
+		647955A21B60F98C002FD957 /* MryLoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MryLoopScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6479556C1B60C204002FD957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647955851B60C205002FD957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		647955661B60C204002FD957 = {
+			isa = PBXGroup;
+			children = (
+				647955A01B60F98C002FD957 /* MryLoopScrollView */,
+				647955711B60C204002FD957 /* MryScrollImage */,
+				6479558B1B60C205002FD957 /* MryScrollImageTests */,
+				647955701B60C204002FD957 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		647955701B60C204002FD957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6479556F1B60C204002FD957 /* MryScrollImage.app */,
+				647955881B60C205002FD957 /* MryScrollImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		647955711B60C204002FD957 /* MryScrollImage */ = {
+			isa = PBXGroup;
+			children = (
+				647955761B60C204002FD957 /* AppDelegate.h */,
+				647955771B60C204002FD957 /* AppDelegate.m */,
+				647955791B60C204002FD957 /* ViewController.h */,
+				6479557A1B60C204002FD957 /* ViewController.m */,
+				6479557C1B60C204002FD957 /* Main.storyboard */,
+				6479557F1B60C204002FD957 /* Images.xcassets */,
+				647955811B60C204002FD957 /* LaunchScreen.xib */,
+				647955721B60C204002FD957 /* Supporting Files */,
+			);
+			path = MryScrollImage;
+			sourceTree = "<group>";
+		};
+		647955721B60C204002FD957 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				647955731B60C204002FD957 /* Info.plist */,
+				647955741B60C204002FD957 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6479558B1B60C205002FD957 /* MryScrollImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				6479558E1B60C205002FD957 /* MryScrollImageTests.m */,
+				6479558C1B60C205002FD957 /* Supporting Files */,
+			);
+			path = MryScrollImageTests;
+			sourceTree = "<group>";
+		};
+		6479558C1B60C205002FD957 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6479558D1B60C205002FD957 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		647955A01B60F98C002FD957 /* MryLoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				647955A11B60F98C002FD957 /* MryLoopScrollView.h */,
+				647955A21B60F98C002FD957 /* MryLoopScrollView.m */,
+			);
+			name = MryLoopScrollView;
+			path = MryScrollImage/MryLoopScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6479556E1B60C204002FD957 /* MryScrollImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647955921B60C205002FD957 /* Build configuration list for PBXNativeTarget "MryScrollImage" */;
+			buildPhases = (
+				6479556B1B60C204002FD957 /* Sources */,
+				6479556C1B60C204002FD957 /* Frameworks */,
+				6479556D1B60C204002FD957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MryScrollImage;
+			productName = MryScrollImage;
+			productReference = 6479556F1B60C204002FD957 /* MryScrollImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		647955871B60C205002FD957 /* MryScrollImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647955951B60C205002FD957 /* Build configuration list for PBXNativeTarget "MryScrollImageTests" */;
+			buildPhases = (
+				647955841B60C205002FD957 /* Sources */,
+				647955851B60C205002FD957 /* Frameworks */,
+				647955861B60C205002FD957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6479558A1B60C205002FD957 /* PBXTargetDependency */,
+			);
+			name = MryScrollImageTests;
+			productName = MryScrollImageTests;
+			productReference = 647955881B60C205002FD957 /* MryScrollImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		647955671B60C204002FD957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = mryun11;
+				TargetAttributes = {
+					6479556E1B60C204002FD957 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					647955871B60C205002FD957 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6479556E1B60C204002FD957;
+					};
+				};
+			};
+			buildConfigurationList = 6479556A1B60C204002FD957 /* Build configuration list for PBXProject "MryScrollImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 647955661B60C204002FD957;
+			productRefGroup = 647955701B60C204002FD957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6479556E1B60C204002FD957 /* MryScrollImage */,
+				647955871B60C205002FD957 /* MryScrollImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6479556D1B60C204002FD957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6479557E1B60C204002FD957 /* Main.storyboard in Resources */,
+				647955831B60C204002FD957 /* LaunchScreen.xib in Resources */,
+				647955801B60C204002FD957 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647955861B60C205002FD957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6479556B1B60C204002FD957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6479557B1B60C204002FD957 /* ViewController.m in Sources */,
+				647955781B60C204002FD957 /* AppDelegate.m in Sources */,
+				647955A31B60F98C002FD957 /* MryLoopScrollView.m in Sources */,
+				647955751B60C204002FD957 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647955841B60C205002FD957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6479558F1B60C205002FD957 /* MryScrollImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6479558A1B60C205002FD957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6479556E1B60C204002FD957 /* MryScrollImage */;
+			targetProxy = 647955891B60C205002FD957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6479557C1B60C204002FD957 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6479557D1B60C204002FD957 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		647955811B60C204002FD957 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				647955821B60C204002FD957 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		647955901B60C205002FD957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		647955911B60C205002FD957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		647955931B60C205002FD957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MryScrollImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		647955941B60C205002FD957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MryScrollImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		647955961B60C205002FD957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MryScrollImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MryScrollImage.app/MryScrollImage";
+			};
+			name = Debug;
+		};
+		647955971B60C205002FD957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MryScrollImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MryScrollImage.app/MryScrollImage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6479556A1B60C204002FD957 /* Build configuration list for PBXProject "MryScrollImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647955901B60C205002FD957 /* Debug */,
+				647955911B60C205002FD957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647955921B60C205002FD957 /* Build configuration list for PBXNativeTarget "MryScrollImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647955931B60C205002FD957 /* Debug */,
+				647955941B60C205002FD957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		647955951B60C205002FD957 /* Build configuration list for PBXNativeTarget "MryScrollImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647955961B60C205002FD957 /* Debug */,
+				647955971B60C205002FD957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 647955671B60C204002FD957 /* Project object */;
+}
