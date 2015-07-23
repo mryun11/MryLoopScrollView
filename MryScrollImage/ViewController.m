@@ -38,7 +38,7 @@
 - (UIView *)pageViewForLoopView:(MryLoopScrollView *)loopView atIndex:(NSInteger)pageIndex{
     UIImageView *view = [[UIImageView alloc]initWithFrame:loopView.bounds];
     view.image = [UIImage imageNamed:self.imageArray[pageIndex]];
-    [view setContentMode:UIViewContentModeScaleAspectFit];
+    [view setContentMode:UIViewContentModeScaleToFill];
     return view;
 }
 
